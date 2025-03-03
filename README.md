@@ -1,2 +1,4 @@
-# IWO
-inżynieria wymagań oprogramowania
+# Dokumentacja
+
+:[Specyfikacja Wymagań](dokumentacja/specyfikacja.wymagan/specyfikacja.wymagan.md)
+

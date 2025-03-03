@@ -1,0 +1,1 @@
+Dokument zawiera specyfikację wymagań dla systemu Zarządzania Otwartymi Danymi Publicznymi składającą się z wizji systemu, wymagań użytkownika oraz wymagań oprogramowania dla pierwszych iteracji projektu.

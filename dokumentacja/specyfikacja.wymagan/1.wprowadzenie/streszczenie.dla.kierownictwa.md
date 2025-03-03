@@ -1,0 +1,1 @@
+Tutaj znajdzie się streszczenie dla kierownictwa... - uzupełnić pod koniec projektu
