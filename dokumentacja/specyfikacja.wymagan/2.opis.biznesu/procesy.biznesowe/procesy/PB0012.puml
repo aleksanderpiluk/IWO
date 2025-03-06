@@ -1,6 +1,5 @@
 @startuml
 
-|s| System
 
 start
 :Zarządzanie bezpieczeństwem;
