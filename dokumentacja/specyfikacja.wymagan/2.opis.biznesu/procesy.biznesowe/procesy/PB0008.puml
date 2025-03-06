@@ -1,0 +1,14 @@
+@startuml
+start
+
+if (Minął tydzień?) then (Tak)
+  :Utworzenie backupu danych;
+  if (Wystąpiły błędy?) then (tak)
+  :Poinformuj administratora;
+  else (Nie)
+  endif
+else (Nie)
+endif
+
+stop
+@enduml
