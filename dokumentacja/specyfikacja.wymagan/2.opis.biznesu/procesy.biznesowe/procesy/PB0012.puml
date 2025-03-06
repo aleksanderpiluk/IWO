@@ -1,0 +1,14 @@
+@startuml
+
+|s| System
+
+start
+:Zarządzanie bezpieczeństwem;
+
+if (Wykryto zagrożenie?) then (Tak)
+  :Poinformuj administratora;
+else (Nie)
+endif
+
+stop
+@enduml
