@@ -1,0 +1,13 @@
+@startuml
+
+|s| System
+
+start
+:Monitorowanie stanu systemu;
+if (Wystąpiła awaria?) then (Tak)
+:Poinformuj administratora;
+else (Nie)
+endif
+
+stop
+@enduml
