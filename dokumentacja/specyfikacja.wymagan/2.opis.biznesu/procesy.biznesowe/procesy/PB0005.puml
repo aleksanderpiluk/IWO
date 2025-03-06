@@ -1,0 +1,22 @@
+@startuml
+start
+
+:Użytkownik wprowadza dane logowania;
+if (Czy konto istnieje?) then (Tak)
+  :Sprawdzenie poprawności hasła;
+  if (Czy hasło jest poprawne?) then (Tak)
+    :Sprawdzenie poziomu dostępu;
+    :Przyznanie dostępu do systemu;
+    
+    stop
+  else (Nie)
+    :Odrzucenie dostępu (niepoprawne hasło);
+    :Wyświetlenie komunikatu użytkownikowi;
+    stop
+  endif
+else (Nie)
+  :Odrzucenie dostępu (konto nie istnieje);
+  :Wyświetlenie komunikatu użytkownikowi;
+  stop
+endif
+@enduml
