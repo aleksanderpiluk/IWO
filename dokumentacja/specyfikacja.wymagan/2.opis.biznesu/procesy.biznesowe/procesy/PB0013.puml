@@ -1,24 +1,20 @@
 @startuml
 
-
-|s| System
-
 start
 :Zarzadzanie zbiorami danych;
 if (Zbiór nadal istnieje?) then (Tak)
   if (Zbiór jest duplikatem?) then (Nie)
     if (Zbiór zawiera błędy?) then (Nie)
-      if (Zbiór wymaga modyfikacji?) then (Tak)
-        :Dokonaj modyfikacji zbioru;
-      else (Nie)
-      endif
-      stop
+    stop
     else(Tak)
+    :Poinformuj administratora;
+    stop
     endif
   else (Tak)
   endif
 else (Nie)
 endif
-:Usuń zbiór;
+:Archiwizuj zbiór i ukryj;
+
 stop
 @enduml
