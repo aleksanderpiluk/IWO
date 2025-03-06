@@ -13,8 +13,11 @@ if (Błąd potwierdzony?) then (Tak)
   :Zatwierdza poprawkę;
   |s| System
   :Aktualizuje dane;
+  |a| Administrator
+  :Wysyła decyzję do użytkownika (błąd poprawiony);
 else (Nie)
   :Odrzuca zgłoszenie;
+  :Wysyła decyzję do użytkownika (błąd niepoprawiony);
 endif
 
 |u| Użytkownik
