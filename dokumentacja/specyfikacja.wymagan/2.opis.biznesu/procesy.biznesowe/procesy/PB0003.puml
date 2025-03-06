@@ -1,0 +1,15 @@
+@startuml
+start
+
+:Administrator przesyła dane źródła przez API;
+:System waliduje poprawność danych;
+if (Czy dane są poprawne?) then (Tak)
+  :Rejestracja nowego źródła;
+  :Dodanie źródła do bazy danych;
+  stop
+else (Nie)
+  :Odrzucenie zgłoszenia;
+  :Informowanie o błędach administratora;
+  stop
+endif
+@enduml
