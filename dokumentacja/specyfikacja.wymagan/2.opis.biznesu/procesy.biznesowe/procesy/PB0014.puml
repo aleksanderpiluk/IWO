@@ -1,7 +1,5 @@
 @startuml
 
-|s| System
-
 start
 :Monitorowanie stanu systemu;
 if (Wystąpiła awaria?) then (Tak)
