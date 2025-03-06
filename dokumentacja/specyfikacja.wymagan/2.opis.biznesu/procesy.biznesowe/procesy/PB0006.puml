@@ -1,0 +1,11 @@
+@startuml
+ 
+start
+:Zbieranie danych ;
+:Oczyszczanie i standaryzacja danych;
+:Analiza oraz agregacja danych;
+:Wyodrębnianie kluczowych wskaźników;
+:Tworzenie wizualizacji (raporty, wykresy, dashboardy);
+:Dystrybucja zestawów danych;
+stop
+@enduml
