@@ -1,11 +1,19 @@
 @startuml
- 
+|#red|p| Pracownik
+|s| System
+
+|p|
 start
-:Zbieranie danych ;
+:Zbieranie danych;
+
+|s|
 :Oczyszczanie i standaryzacja danych;
 :Analiza oraz agregacja danych;
 :Wyodrębnianie kluczowych wskaźników;
 :Tworzenie wizualizacji (raporty, wykresy, dashboardy);
+
+|p|
 :Dystrybucja zestawów danych;
+
 stop
 @enduml
