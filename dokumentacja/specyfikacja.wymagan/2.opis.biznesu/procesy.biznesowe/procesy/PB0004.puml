@@ -1,0 +1,8 @@
+@startuml
+start
+
+:Użytkownik wprowadza kryteria wyszukiwania;
+:System filtruje dane na podstawie kryteriów;
+:System prezentuje wyniki;
+stop
+@enduml
