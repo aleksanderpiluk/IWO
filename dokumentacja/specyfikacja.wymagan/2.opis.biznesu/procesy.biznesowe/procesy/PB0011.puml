@@ -1,0 +1,9 @@
+@startuml
+
+|s| System
+
+start
+:Wyświetlenie oceny źródła danych;
+
+stop
+@enduml
