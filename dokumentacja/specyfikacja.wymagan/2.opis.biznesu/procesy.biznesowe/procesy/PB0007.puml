@@ -1,0 +1,12 @@
+@startuml
+start
+
+:Użytkownik wybiera zakres raportu (przedział czasowy, lokalizacja, typ zdarzeń);
+:System pobiera i przetwarza dane o ruchu;
+:System analizuje dane (agregacja, wykrywanie anomalii, identyfikacja trendów);
+:System generuje raport (wykresy, statystyki, mapy, wizualizacje);
+:System udostępnia raport użytkownikowi w wybranym formacie (PDF, CSV, JSON, interaktywna strona);
+:Opcjonalnie: System wysyła raport na e-mail lub udostępnia przez API;
+
+stop
+@enduml
