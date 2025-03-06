@@ -1,0 +1,17 @@
+@startuml
+start
+
+:Użytkownik wysyła zgłoszenie;
+:System zapisuje zgłoszenie;
+:Administrator weryfikuje;
+if (Czy błąd potwierdzony?) then (Tak)
+  :Administrator zatwierdza poprawkę;
+  :Aktualizacja danych;
+  :Wyświetlenie komunikatu użytkownikowi;
+else (Nie)
+  :Administrator odrzuca zgłoszenie;
+  :Wyświetlenie komunikatu użytkownikowi;
+endif
+
+stop
+@enduml
