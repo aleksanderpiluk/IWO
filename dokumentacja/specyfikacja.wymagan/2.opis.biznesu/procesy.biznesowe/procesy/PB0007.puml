@@ -1,0 +1,22 @@
+@startuml
+|#palegreen|u|Użytkownik
+|System|
+
+|u|
+start
+:Wybór zakresu raportu;
+
+|System|
+: Pobieranie danych;
+
+: Analiz danych;
+
+: Generowanie raportu;
+
+: Udostępnianie raportu;
+
+|u|
+:Odbiór raportu;
+
+stop
+@enduml
