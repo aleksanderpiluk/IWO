@@ -7,13 +7,13 @@ start
 :Wybór zakresu raportu;
 
 |System|
-:System pobiera dane;
+: Pobieranie danych;
 
-:System analizuje dane;
+: Analiz danych;
 
-:System generuje raport;
+: Generowanie raportu;
 
-:System udostępnia raport;
+: Udostępnianie raportu;
 
 |u|
 :Odbiór raportu;
