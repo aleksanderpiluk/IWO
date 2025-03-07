@@ -1,0 +1,24 @@
+@startuml
+|#gold|a| Administrator
+start
+:Przesyła dane źródła przez API;
+
+|s| System
+:Waliduje poprawność danych;
+
+if (Czy dane są poprawne?) then (Tak)
+  :Rejestracja nowego źródła;
+  :Dodanie źródła do bazy danych;
+:Informowanie administratora o rejestracji;
+  |#gold|a| Administrator
+  :Otrzymuje potwierdzenie rejestracji;
+stop
+else (Nie)
+  |s| System
+  :Odrzucenie zgłoszenia;
+  :Informowanie administratora o błędach;
+  |#gold|a| Administrator
+  :Otrzymuje informację o błędach;
+stop
+endif
+@enduml
