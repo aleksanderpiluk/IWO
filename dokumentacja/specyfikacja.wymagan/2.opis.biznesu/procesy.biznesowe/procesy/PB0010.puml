@@ -1,8 +1,8 @@
 @startuml
 
-|#palegreen|k| Klient
+|#palegreen|u| Użytkownik
 |s| System
-|k|
+|u|
 start
 :Wystawienie oceny dla danego źródła danych;
 |s|
