@@ -1,0 +1,26 @@
+@startuml
+|#palegreen|u| Użytkownik
+start
+:Wysyła zgłoszenie;
+
+|s| System
+:Zapisuje zgłoszenie;
+
+|#gold|a| Administrator
+:Weryfikuje zgłoszenie;
+
+if (Błąd potwierdzony?) then (Tak)
+  :Zatwierdza poprawkę;
+  |s| System
+  :Aktualizuje dane;
+  |#gold|a| Administrator
+  :Wysyła decyzję do użytkownika (błąd poprawiony);
+else (Nie)
+  :Odrzuca zgłoszenie;
+  :Wysyła decyzję do użytkownika (błąd niepoprawiony);
+endif
+
+|#palegreen|u| Użytkownik
+:Otrzymuje komunikat o decyzji;
+stop
+@enduml
