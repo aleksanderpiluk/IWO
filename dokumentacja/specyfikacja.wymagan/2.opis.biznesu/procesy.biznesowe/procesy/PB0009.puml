@@ -1,0 +1,21 @@
+@startuml
+
+|#palegreen|u| Użytkownik
+|s| System
+|u|
+start
+:Pobranie formularza zgłoszenia nowego źródła danych;
+:Wypełnienie formularza;
+:Wysłanie formularza;
+|s|
+:Odebranie formularza;
+if (Formularz poprawny?) then (Tak)
+  :Dodaj źródło danych;
+  :Poinformuj użytkownika o udanym dodaniu;
+else (Nie)
+  :Poinformuj użytkownika o błędnym formularzu;
+endif
+
+
+stop
+@enduml
