@@ -1,0 +1,12 @@
+@startuml
+
+|#palegreen|u| Użytkownik
+|s| System
+|u|
+start
+:Wystawienie oceny dla danego źródła danych;
+|s|
+:Zaktualizowanie średniej ocen o nową ocenę;
+
+stop
+@enduml

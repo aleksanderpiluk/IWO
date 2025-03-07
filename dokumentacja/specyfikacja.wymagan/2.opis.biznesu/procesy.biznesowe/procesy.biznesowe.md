@@ -5,6 +5,7 @@
 :[PB0005](procesy/PB0005.md)
 :[PB0006](procesy/PB0006.md)
 :[PB0007](procesy/PB0007.md)
+:[PB0010](procesy/PB0010.md)
 :[PB0011](procesy/PB0011.md)
 :[PB0012](procesy/PB0012.md)
 :[PB0013](procesy/PB0013.md)
