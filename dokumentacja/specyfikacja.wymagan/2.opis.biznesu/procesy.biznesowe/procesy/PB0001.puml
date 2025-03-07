@@ -1,0 +1,13 @@
+@startuml
+start
+
+:Aktualizacja danych;
+if (Nowe dane dostępne?) then (Tak)
+  :Pobranie nowych danych;
+  :Walidacja i zapisanie;
+else (Nie)
+  :Zakończenie procesu;
+endif
+
+stop
+@enduml

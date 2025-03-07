@@ -1,0 +1,20 @@
+@startuml
+
+start
+:Zarzadzanie zbiorami danych;
+if (Zbiór nadal istnieje?) then (Tak)
+  if (Zbiór jest duplikatem?) then (Nie)
+    if (Zbiór zawiera błędy?) then (Nie)
+    stop
+    else(Tak)
+    :Poinformuj administratora;
+    stop
+    endif
+  else (Tak)
+  endif
+else (Nie)
+endif
+:Archiwizuj zbiór i ukryj;
+
+stop
+@enduml
