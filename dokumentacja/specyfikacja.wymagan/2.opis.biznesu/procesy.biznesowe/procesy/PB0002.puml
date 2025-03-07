@@ -6,14 +6,14 @@ start
 |s| System
 :Zapisuje zgłoszenie;
 
-|#lightblue|a| Administrator
+|#gold|a| Administrator
 :Weryfikuje zgłoszenie;
 
 if (Błąd potwierdzony?) then (Tak)
   :Zatwierdza poprawkę;
   |s| System
   :Aktualizuje dane;
-  |#lightblue|a| Administrator
+  |#gold|a| Administrator
   :Wysyła decyzję do użytkownika (błąd poprawiony);
 else (Nie)
   :Odrzuca zgłoszenie;
