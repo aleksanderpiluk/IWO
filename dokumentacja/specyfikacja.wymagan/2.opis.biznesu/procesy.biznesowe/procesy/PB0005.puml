@@ -1,0 +1,36 @@
+@startuml
+|#palegreen|u| Użytkownik
+start
+:Wprowadza dane logowania;
+
+|s| System
+:Sprawdzenie istnienia konta;
+if (Czy konto istnieje?) then (Tak)
+  :Sprawdzenie poprawności hasła;
+  if (Czy hasło jest poprawne?) then (Tak)
+    :Sprawdzenie poziomu dostępu;
+    :Przyznanie dostępu do systemu;
+|u| Użytkownik
+    :Otrzymanie dostępu do systemu;
+    stop
+ |s| System
+  else (Nie)
+ 
+    :Odrzucenie dostępu (niepoprawne hasło);
+     
+      
+    :Wyświetlenie komunikatu;
+ |u| Użytkownik
+  :Otrzymanie komunikatu;
+    stop
+|s| System
+  endif
+else (Nie)
+  :Odrzucenie dostępu (konto nie istnieje);
+   
+  :Wyświetlenie komunikatu;
+  |u| Użytkownik
+  :Otrzymanie komunikatu;
+  stop
+endif
+@enduml

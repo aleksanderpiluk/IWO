@@ -1,0 +1,15 @@
+@startuml
+|#palegreen|u| Użytkownik
+|s| System
+
+|u|
+start
+:Użytkownik wprowadza kryteria wyszukiwania;
+|s|
+:System filtruje dane na podstawie kryteriów;
+|s|
+:System prezentuje wyniki;
+|u|
+:Użytkownik otrzymuje wyniki;
+stop
+@enduml
