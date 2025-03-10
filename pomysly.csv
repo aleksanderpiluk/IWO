@@ -1,0 +1,81 @@
+kategoria,element,waznosc
+funkcjonalne,Zarządzanie metadanymi udostępnionych zbiorów danych,a
+funkcjonalne,Zarządzanie dystrybucjami zbiorów danych i ich powiązanie ze źródłami danych,a
+funkcjonalne,Możliwość wygodnego wprowadzania przeglądania filtrowania i wyszukiwania zbiorów danych i ich dystrybucji,a
+funkcjonalne,Zarządzanie schematami danych i przypisywanie schematów danych do zbiorów danych,a
+funkcjonalne,Weryfikacja zgodności dystrybucji zbiorów danych ze schematami,a
+funkcjonalne,Import i eksport danych w różnych formatach z zachowaniem zgodności ze schematami,a
+funkcjonalne,System ocen oraz uwag od użytkowników,b
+funkcjonalne,Integracja z systemem CKAN,a
+funkcjonalne,Filtrowanie i wyszukiwanie danych,a
+funkcjonalne,Prezentacja wyników wyszukiwania w różnych formatach,b
+funkcjonalne,Zapewnienie tłumaczenia na inne języki,c
+funkcjonalne,Autentykacja danych,a
+funkcjonalne,Autoryzacja użytkowników,a
+funkcjonalne,Przyznawanie dostępu,a
+funkcjonalne,Sprawdzenie poziomu dostępu użytkownika,a
+funkcjonalne,Dodawanie danych przez API,a
+funkcjonalne,Wyodrębnianie kluczowych wskaźników,b
+funkcjonalne,Zgłaszanie błędów danych,b
+funkcjonalne,Generowanie raportów,b
+funkcjonalne,Statystyki wyszukiwań,c
+funkcjonalne,Ocena UI,c
+funkcjonalne,Śledzenie aktywności użytkownika w ocenianiu,c
+funkcjonalne,Przedstawienie historii zmian w przystępny sposób,b
+funkcjonalne,Powiadomienia o aktualizacjach,b
+funkcjonalne,Integracja narzędzi do wizualizacji danych,b
+funkcjonalne,Prezentowanie wszystkich zbiorów danych,a
+funkcjonalne,Aktualizowanie wybranych zbiorów co sekundę,b
+jakościowe,Zapewnienie piątego poziomu otwartości danych (m.in. zgodność z RDF),a
+jakościowe,Ułatwienie dostępu dla różnych źródeł danych dla klientów,a
+jakościowe,Efektywne zarządzanie danymi,a
+jakościowe,Ulepszenie jakości danych,a
+jakościowe,Zapewnienie danych zgodnie ze standardami,a
+jakościowe,Archiwizacja danych,a
+jakościowe,Utrzymywanie historii danych,b
+jakościowe,Zapewnienie stałego dostępu do danych,a
+jakościowe,Utrzymanie aktualności danych,a
+jakościowe,Analiza wykorzystania danych,b
+jakościowe,Analiza ruchu,c
+jakościowe,SLA 99.99999%,b
+jakościowe,Time to recovery 2h,b
+jakościowe,Wykrywanie anomalii,b
+jakościowe,Zapewnienie bezpieczeństwa danych,a
+jakościowe,Zapewnienie ciągłego dostępu do danych,a
+jakościowe,Ochrona przed atakami,a
+jakościowe,Zminimalizowanie czasu potrzebnego do wyszukiwania danych,b
+jakościowe,System działa bez przerw i jest zawsze dostępny,b
+jakościowe,Skalowalność systemu,a
+jakościowe,Zapewnienie autentyczności danych,a
+jakościowe,Wykrywanie błędów w zbiorach,b
+jakościowe,Zminimalizowanie opóźnień,b
+jakościowe,Wykrywanie zagrożeń bezpieczeństwa,a
+jakościowe,Przejrzystość interfejsu,b
+jakościowe,Udostępnianie jak największej liczby formatów,b
+jakościowe,Dostępność dla osób z niepełnosprawnościami,a
+jakościowe,Sprawne dodawanie nowych źródeł danych,a
+jakościowe,Wersjonowanie danych,b
+jakościowe,Wspieranie badań naukowych poprzez dostarczanie zbiorów,c
+jakościowe,Zmniejszenie kosztów działania,b
+jakościowe,Szyfrowanie danych wrażliwych,a
+jakościowe,Szyfrowanie przesyłu,a
+jakościowe,Cachowanie odpowiedzi,b
+jakościowe,Przechowywanie logów systemu w celu audytu,b
+jakościowe,Zbieranie i analizowanie ocen użytkowników,c
+jakościowe,Zgodność z RODO i NIS2,a
+jakościowe,Adaptowalność UI do rozmiaru ekranu,b
+jakościowe,Automatyzacja aktualizacji,b
+jakościowe,Archiwizacja danych w sposób nie zapychający bazy danych,b
+jakościowe,Ocenianie danych pod kątem przydatności,c
+jakościowe,Automatyczna cykliczna walidacja zbiorów,b
+jakościowe,Monitorowanie wydajności,b
+ograniczenia,Kompatybilność z Androidem 10 i iOS 12,a
+ograniczenia,Wsparcie Internet Explorer 11,c
+ograniczenia,Infrastruktura na terenie UE,a
+ograniczenia,Ograniczenie dostępu do panelu administracyjnego do intranetu,b
+ograniczenia,Udostępnianie danych wyżej w hierarchii,b
+ograniczenia,Czas wprowadzania danych nie więcej niż 2 min,b
+ograniczenia,Maksymalny czas przeszukiwania zbioru 20 sek,b
+ograniczenia,Generowanie raportów mniej niż 1 min,b
+ograniczenia,Czas od wysłania do otrzymania powiadomienia nie więcej niż 5 min,c
+ograniczenia,Zarabianie na reklamach,c
