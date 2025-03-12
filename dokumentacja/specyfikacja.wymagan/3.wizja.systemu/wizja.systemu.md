@@ -1,7 +1,7 @@
 
 #### Motto
 
-
+"Łączymy świat z danymi publicznymi - prosto, bezpiecznie i efektywnie"
 ---
 ---
 
