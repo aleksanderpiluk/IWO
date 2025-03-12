@@ -3,6 +3,7 @@
 
 
 ---
+"Jednolity dostęp do wiarygodnych danych publicznych dla wszystkich, zawsze i wszędzie"
 ---
 
 ### 3.1 Opisy problemów
