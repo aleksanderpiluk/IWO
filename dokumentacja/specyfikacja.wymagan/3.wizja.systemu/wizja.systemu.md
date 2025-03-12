@@ -1,7 +1,7 @@
 
 #### Motto
 
-
+"Otwarte dane, nieograniczone możliwości"
 ---
 ---
 
