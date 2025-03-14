@@ -3,6 +3,7 @@
 
 "Otwarte dane, nieograniczone możliwości"
 "Łączymy świat z danymi publicznymi - prosto, bezpiecznie i efektywnie"
+"Jednolity dostęp do wiarygodnych danych publicznych dla wszystkich, zawsze i wszędzie"
 
 
 ### 3.1 Opisy problemów
