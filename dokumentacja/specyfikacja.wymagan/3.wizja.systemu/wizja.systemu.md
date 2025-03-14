@@ -2,8 +2,8 @@
 #### Motto
 
 "Otwarte dane, nieograniczone możliwości"
----
----
+"Łączymy świat z danymi publicznymi - prosto, bezpiecznie i efektywnie"
+
 
 ### 3.1 Opisy problemów
 
