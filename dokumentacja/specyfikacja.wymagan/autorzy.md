@@ -1,3 +1,6 @@
-- Albert Grochowski
-- Oskar Biwejnis
+- Grochowski Albert
+- Biwejnis Oskar
 - Minich Marharyta
+- Rohoutseu	Ilya
+- Rusinovich Ivan
+- Yarmats Stanislau
