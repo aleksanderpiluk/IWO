@@ -28,3 +28,7 @@
 
 :[Opis biznesu](2.opis.biznesu/opis.biznesu.md)
 
+## 3. wizja systemu
+
+:[wizja systemu](3.wizja.systemu/wizja.systemu.md)
+
