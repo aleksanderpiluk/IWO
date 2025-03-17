@@ -1,0 +1,61 @@
+wyświetlanie zbiorów danych
+wyszukiwanie zbiorów
+filtrowanie zbiorów
+dodawanie nowych zbiorów
+usuwanie zbiorów
+edytownie zbiorów
+zgłoszenie błędów
+eksportowanie danych w różnych formatach
+walidacja danych
+importowanie danych
+dodanie użytkownika
+usunięcie użytkownika
+stworzenie kopi zapasowych
+zmiana hasła użytkownika
+ocena zbioru
+przyznanie dostępu do systemu
+usunięcie dostępu do systemu
+listowanie dostępu do systemu
+raportowanie wykrycia błędów w zbiorach
+integracja aplikacji z api 
+raportowanie o ruchu
+lista wygenerowanych raportów
+zatwierdzenie zgłoszonych błędów danych
+zgłoszenie błędów danych
+logowanie do systemu
+tworzenie schematów danych
+listowanie schematów dancyh
+usuwanie schematów danych
+aktualizacja schematów danych
+przypisanie schematów do zbiorów danych
+przełączanie UI 
+przełączenie języka
+dodwanie integracji CKAN
+usuwanie integracji CKAN
+listowanie integracji CKAN 
+generowanie raportów dot. bezpieczeństwa
+analiza raportów dot. bezpieczeństwa
+zatwierdzanie raportów dot. bezpieczeństwa
+wyświetlanie wykrytych anomalii
+wykrywanie anomalii
+poinformowanie użytkowników o anomalii
+generowanie raportów dot. wydajności
+analiza raportów dot. wydajności
+wysłanie powiadomienia o aktualizacji zbiorów danych
+wizualizacja zbiorów danych
+prezentacja historii zmian zbiorów danych
+archiwizacja zbiorów danych
+udostępnienie zbiorów danych do wyższych podmiotów
+szyfrowanie zbiorów danych
+odszyfrowanie zbiorów dancyh
+przywracanie zbiorów danych
+audyt dostępu
+prezentowanie wyników 
+wyświetlenie oceny zbioru danych
+aktualizacja ozeny zbioru danych
+usunięcie oceny zbioru danych
+wyświetlenie historii ocen
+walidacaja instnienia zbiorów dancyh
+dodanie sugestii dotyczących zmian
+listowanie sugestii dotyczących zmian
+obsługa sugestii dotyczących zmian
