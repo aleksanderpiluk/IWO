@@ -1,10 +1,25 @@
 @startuml
 
+|#gold|a| Administrator
+|s| System
+|a|
 start
-:Monitorowanie stanu systemu;
-if (Wystąpiła awaria?) then (Tak)
-:Poinformuj administratora;
+:Odbierz komunikat o awarii;
+:Przeanalizuj awarię;
+if (Znana jest przyczyna awarii?) then (Tak)
+  :Napraw problem;
 else (Nie)
+  :Wydaj polecenie generowania szczegółowego raportu awarii;
+  |s|
+  :Generuj szczegółowy raport awarii;
+  |a|
+  :Analizuj szcegółowy raport;
+  if (Znana jest przyczyna awarii?) then (Tak)
+    :Napraw problem;
+  else (Nie)
+    :Przywróć wcześniejszą wersję systemu;
+    :Podejmij odpowiednie kroki;
+  endif
 endif
 
 stop
