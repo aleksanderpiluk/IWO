@@ -22,6 +22,7 @@ if (Czy zbiór wymaga działania?) then (Tak)
   endif
 else (Nie)
 endif
+
 stop
 
 @enduml
