@@ -1,0 +1,13 @@
+nazwa: 
+    wyświetlanie zbiorów danych
+aktorzy: 
+    klient/użytkownich danych
+    system
+opis: 
+    System prezentuje listę wszystkich dostępnych zbiorów danych.
+    Prezentacja powinna być przejrzysta i umożliwiać sortowanie.
+kroki:
+    aktor - klika przycisk 'wyświtel dostępne zbiory'
+    system - pobiera zbiory danych
+    aktor - wybiera sortowanie 
+alt 1 awaria bazy danych

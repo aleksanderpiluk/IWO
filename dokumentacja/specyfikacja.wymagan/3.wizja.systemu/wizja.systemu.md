@@ -25,7 +25,10 @@
 
 :[Cechy jakościowe](3.4.cechy.jakosciowe/cechy.jakosciowe.md)
 
-
 ### 3.5 Słownik
+
+:[Słownik](3.6.ograniczenia/ograniczenia.md)
+
+### 3.6 Słownik
 
 :[Słownik](3.5.slownik/slownik.md)
