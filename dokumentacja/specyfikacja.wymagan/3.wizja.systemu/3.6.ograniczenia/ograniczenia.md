@@ -1,4 +1,4 @@
-# **Ograniczenia systemu zarządzania otwartymi danymi publicznymi**
+# **Ograniczenia**
 
 ## **Priorytet wysoki**
 
