@@ -6,6 +6,7 @@
 start
 :Wystawienie oceny dla danego źródła danych;
 |s|
+:Weryfikacja unikalności oceny;
 :Zaktualizowanie średniej ocen o nową ocenę;
 
 stop

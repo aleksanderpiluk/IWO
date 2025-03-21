@@ -1,13 +1,31 @@
 @startuml
 
-
+|#gold|a| Administrator
+|s| System
 start
 :Zarządzanie bezpieczeństwem;
 
-if (Wykryto zagrożenie?) then (Tak)
+if (Minęły 24 godziny?) then (Tak)
+  :Przeprowadź analizę systemu;
+  if (Wystąpiły błędy?) then (tak)
   :Poinformuj administratora;
+  |a| 
+  :Odebranie komunikatu o awarii;
+  stop
+  else (Nie) 
+  |s|
+  :Wyślij raport o braku błędów;
+  endif
 else (Nie)
 endif
+|a|
+if (Administrator chce wprowadzić zmiany?) then (Tak)
+  :Zmodyfikuj ustawienia zabezpieczeń systemu;
+else (Nie)
+endif
+
+
+
 
 stop
 @enduml

@@ -1,20 +1,28 @@
 @startuml
 
+|#gold|a| Administrator
+|s| System
+|a|
+
 start
-:Zarzadzanie zbiorami danych;
-if (Zbiór nadal istnieje?) then (Tak)
-  if (Zbiór jest duplikatem?) then (Nie)
-    if (Zbiór zawiera błędy?) then (Nie)
-    stop
-    else(Tak)
-    :Poinformuj administratora;
-    stop
+if (Czy zbiór wymaga działania?) then (Tak)
+  if (Czy zbiór należy usunąć?) then (Nie)
+    if (Czy zbiór należy zmodyfikować?) then (Nie)
+    else (Tak)
+    :Wydaj polecenie modyfikacji zbioru;
+    |s|
+    :Wykonaj modyfikację zbioru;
     endif
+    
   else (Tak)
+  |a|
+  :Wydaj polecenie archiwizacji zbioru i ukrycia;
+  |s|
+  :Wykonaj archiwizację zbioru i ukryj;
   endif
 else (Nie)
 endif
-:Archiwizuj zbiór i ukryj;
 
 stop
+
 @enduml

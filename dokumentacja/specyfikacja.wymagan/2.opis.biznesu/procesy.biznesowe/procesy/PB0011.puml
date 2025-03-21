@@ -1,8 +1,14 @@
 @startuml
 
+|#palegreen|u| Użytkownik
+|s| System
 
 start
+|u|
+:Wydanie polecenia wyświetlenia oceny;
+|s|
 :Wyświetlenie oceny źródła danych;
+
 
 stop
 @enduml
