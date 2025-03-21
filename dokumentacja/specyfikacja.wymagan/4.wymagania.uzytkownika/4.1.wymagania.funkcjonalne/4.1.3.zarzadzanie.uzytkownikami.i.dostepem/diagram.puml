@@ -1,0 +1,25 @@
+@startuml diagram
+left to right direction
+
+rectangle "Zarządzanie użytkownikami i dostępem" {
+  actor "Administrator systemu" as Administrator
+  actor "Użytkownik systemu" as Użytkownik
+
+  usecase (Logowanie do systemu) as Logowanie
+  usecase (Zmiana hasła użytkownika) as ZmianaHasla
+  usecase (Dodanie użytkownika) as DodanieUzytkownika
+  usecase (Przyznanie dostępu do systemu) as PrzyznanieDostepu
+  usecase (Usunięcie użytkownika) as UsuniecieUzytkownika
+  usecase (Usunięcie dostępu do systemu) as UsuniecieDostepu
+  usecase (Audyt dostępu) as AudytDostepu
+
+  Użytkownik -- Logowanie
+  Użytkownik -- ZmianaHasla
+  Administrator -- DodanieUzytkownika
+  Administrator -- PrzyznanieDostepu
+  Administrator -- UsuniecieUzytkownika
+  Administrator -- UsuniecieDostepu
+  Administrator -- AudytDostepu
+}
+
+@enduml
