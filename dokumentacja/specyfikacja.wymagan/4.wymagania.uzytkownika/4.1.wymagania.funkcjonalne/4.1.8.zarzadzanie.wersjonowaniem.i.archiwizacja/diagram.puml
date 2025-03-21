@@ -1,0 +1,11 @@
+@startuml diagram
+left to right direction
+
+rectangle "Zarządzanie wersjonowaniem i archiwizacją" {
+    actor "Administrator systemu" as Administrator
+    usecase (Tworzenie kopii zapasowych) as Kopie
+
+    Administrator -- Kopie
+}
+
+@enduml

@@ -1,0 +1,43 @@
+@startuml diagram
+left to right direction
+
+rectangle "Zarządzanie zbiorami danych" {
+  actor "Klient/Użytkownik danych" as Użytkownik
+  actor "Administrator systemu" as Administrator
+  actor "Dostawca danych" as Dostawca
+  usecase (Wyświetlanie zbiorów danych) as Wyswietlanie
+  usecase (Wyszukiwanie zbiorów danych) as Wyszukiwanie
+  usecase (Filtrowanie zbiorów danych) as Filtrowanie
+  usecase (Wizualizacja zbiorów danych) as Wizualizacja
+  usecase (Prezentacja historii zmian zbiorów danych) as HistoriaZmian
+  usecase (Dodawanie nowych zbiorów danych) as Dodawanie
+  usecase (Edycja zbioru danych) as Edycja
+  usecase (Walidacja danych) as Walidacja
+  usecase (Importowanie danych) as Importowanie
+  usecase (Przypisywanie schematów do zbiorów danych) as PrzypisywanieSchematu
+  usecase (Eksportowanie danych w różnych formatach) as Eksportowanie
+  usecase (Usuwanie zbiorów danych) as Usuwanie
+  usecase (Archiwizacja zbiorów danych) as Archiwizacja
+  usecase (Przywracanie zbiorów danych) as Przywracanie
+  
+  Użytkownik -- Wyswietlanie
+  Użytkownik -- Wyszukiwanie
+  Użytkownik -- Filtrowanie
+  Dostawca -- Dodawanie
+  Dostawca -- Edycja
+  Dostawca -- PrzypisywanieSchematu
+  Administrator -- Usuwanie
+  Dostawca -- Importowanie
+  Użytkownik -- Eksportowanie
+  Użytkownik -- Wizualizacja
+  Użytkownik -- HistoriaZmian
+  Administrator -- Archiwizacja
+  Administrator -- Przywracanie
+
+  Dodawanie ..> Walidacja : include
+  Edycja ..> Walidacja : include
+  Importowanie ..> Walidacja : include
+  Wyswietlanie <.. Wizualizacja : extends
+}
+
+@enduml
