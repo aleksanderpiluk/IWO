@@ -1,1 +1,25 @@
+@startuml quality
+left to right direction
+
+rectangle "Zarządzanie jakością danych" {
+  actor "Klient/Użytkownik danych" as Użytkownik
+  actor "Administrator systemu" as Administrator
+  ' Use cases for quality management:
+  usecase (Zgłoszenie błędów danych) as Zgloszenie
+  usecase (Zatwierdzenie zgłoszonych błędów danych) as Zatwierdzenie
+  usecase (Odrzucenie zgłoszenia i powiadomienie użytkownika) as Odrzucenie
+  usecase (Wykrywanie anomalii) as Wykrywanie
+  usecase (Wyświetlanie wykrytych anomalii) as WyswietlanieAnomalii
+  usecase (Walidacja istnienia zbiorów danych) as WalidacjaIstnienia
+
+  Użytkownik -- Zgloszenie
+  Administrator -- Zatwierdzenie
+  Administrator -- Odrzucenie
+  Użytkownik -- WyswietlanieAnomalii
+  Użytkownik -- WalidacjaIstnienia
+  
+  ' Wykrywanie anomalii jest a process triggered automatically by the system.
+  note right of Wykrywanie : Proces automatyczny
+}
+@enduml
 
