@@ -1,0 +1,18 @@
+@startuml diagram
+left to right direction
+
+rectangle "Zarządzanie schematami danych" {
+  actor "Administrator systemu" as Administrator
+
+  usecase (Tworzenie schematów danych) as TworzenieSchematow
+  usecase (Aktualizacja schematów danych) as AktualizacjaSchematow
+  usecase (Listowanie schematów danych) as ListowanieSchematow
+  usecase (Usuwanie schematów danych) as UsuwanieSchematow
+
+  Administrator -- TworzenieSchematow
+  Administrator -- ListowanieSchematow
+  ListowanieSchematow ..> AktualizacjaSchematow : <<invoke>>
+  ListowanieSchematow ..> UsuwanieSchematow : <<invoke>>
+}
+
+@enduml

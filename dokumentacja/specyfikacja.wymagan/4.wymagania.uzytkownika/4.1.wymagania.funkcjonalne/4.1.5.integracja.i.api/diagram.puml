@@ -1,0 +1,19 @@
+@startuml diagram
+left to right direction
+
+rectangle "Integracja i API" {
+  actor "System zewnętrzny" as SystemZewnetrzny
+  actor "Administrator systemu" as Administrator
+
+  usecase (Dodanie danych przez API) as DodanieDanychAPI
+  usecase (Uaktualnienie danych przez API) as UaktualnienieDanychAPI
+  usecase (Usunięcie danych przez API) as UsuniecieDanychAPI
+  usecase (Integracja z CKAN) as IntegracjaCKAN
+
+  SystemZewnetrzny -- DodanieDanychAPI
+  SystemZewnetrzny -- UaktualnienieDanychAPI
+  SystemZewnetrzny -- UsuniecieDanychAPI
+  Administrator -- IntegracjaCKAN
+}
+
+@enduml

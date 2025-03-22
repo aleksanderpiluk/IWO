@@ -16,7 +16,7 @@
 11. Wizualizacja zbiorów danych (2)  
 12. Prezentacja historii zmian zbiorów danych (2)  
 13. Archiwizacja zbiorów danych (2)  
-14. Szyfrowanie zbiorów danych (2)  
+14. Przywracanie zbiorów danych (3) 
 
 ### **8. Zarządzanie wersjonowaniem i archiwizacją (1)**
 15.  Tworzenie kopii zapasowych (2)  
