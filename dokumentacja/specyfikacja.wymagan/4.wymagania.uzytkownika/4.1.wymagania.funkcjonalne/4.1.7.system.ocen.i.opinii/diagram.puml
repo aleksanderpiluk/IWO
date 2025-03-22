@@ -1,1 +1,16 @@
+@startuml ratings
+left to right direction
+
+rectangle "System ocen i opinii" {
+  actor "Klient/Użytkownik danych" as Użytkownik
+  ' Use cases for ratings and reviews:
+  usecase (Wystawienie oceny zbioru danych) as WystawienieOceny
+  usecase (Aktualizacja oceny zbioru danych) as AktualizacjaOceny
+  usecase (Wyświetlenie historii ocen) as HistoriaOcen
+
+  Użytkownik -- WystawienieOceny
+  Użytkownik -- AktualizacjaOceny
+  Użytkownik -- HistoriaOcen
+}
+@enduml
 
