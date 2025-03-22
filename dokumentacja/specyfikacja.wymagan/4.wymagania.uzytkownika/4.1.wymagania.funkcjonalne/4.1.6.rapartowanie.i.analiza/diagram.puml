@@ -1,1 +1,23 @@
+@startuml reports
+left to right direction
+
+rectangle "Raportowanie i analiza" {
+  actor "Klient/Użytkownik danych" as Użytkownik
+  actor "Administrator systemu" as Administrator
+  ' Use cases for reporting and analysis:
+  usecase (Generowanie raportów dot. bezpieczeństwa) as GenBezpieczenstwa
+  usecase (Analiza raportów dot. bezpieczeństwa) as AnalizaBezpieczenstwa
+  usecase (Generowanie raportów dot. wydajności) as GenWydajnosci
+  usecase (Analiza raportów dot. wydajności) as AnalizaWydajnosci
+  usecase (Raportowanie o ruchu) as RaportowanieRuchu
+  usecase (Lista wygenerowanych raportów) as ListaRaportow
+
+  Użytkownik -- GenBezpieczenstwa
+  Użytkownik -- AnalizaBezpieczenstwa
+  Użytkownik -- GenWydajnosci
+  Użytkownik -- AnalizaWydajnosci
+  Użytkownik -- RaportowanieRuchu
+  Użytkownik -- ListaRaportow
+}
+@enduml
 
