@@ -1,0 +1,21 @@
+name: convert
+
+on:
+  push:
+
+jobs:
+  converttopdf:
+    name: Build PDF
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build pdf
+        run: |-
+          npm install -g md-to-pdf
+          mkdir -p _output     
+          md-to-pdf README.md > _output/main.pdf
+      - uses: actions/upload-artifact@v1
+        with:
+          name: output
+          path: _output
