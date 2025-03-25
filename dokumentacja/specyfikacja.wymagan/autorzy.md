@@ -4,3 +4,6 @@
 - Rohoutseu	Ilya
 - Rusinovich Ivan
 - Yarmats Stanislau
+- Horobets Kiril
+- Szopa Jan
+- Marszewski Marcin

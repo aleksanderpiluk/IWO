@@ -13,13 +13,13 @@
 System umożliwia administratorowi tworzenie nowych schematów danych. Proces obejmuje wprowadzenie szczegółów schematu, zapisanie go w systemie oraz synchronizację z platformą CKAN.  
 
 **kroki:**  
-3. **Administrator systemu** wybiera opcję tworzenia nowego schematu danych.  
-4. **Administrator systemu** wprowadza szczegóły schematu.  
-5. **Administrator systemu** zatwierdza utworzenie schematu.  
-6. **System** weryfikuje poprawność wprowadzonych danych.  
-7. **System** zapisuje nowy schemat danych w bazie danych.  
-8. **System** synchronizuje schemat z platformą CKAN, przesyłając odpowiednie dane.  
-9. **System** wyświetla komunikat o pomyślnym utworzeniu schematu danych.  
+1. **Administrator systemu** wybiera opcję tworzenia nowego schematu danych.  
+2. **Administrator systemu** wprowadza szczegóły schematu.  
+3. **Administrator systemu** zatwierdza utworzenie schematu.  
+4. **System** weryfikuje poprawność wprowadzonych danych.
+5. **System** zapisuje nowy schemat danych w bazie danych.
+6. **System** synchronizuje schemat z platformą CKAN, przesyłając odpowiednie dane.
+7. **System** wyświetla komunikat o pomyślnym utworzeniu schematu danych.  
 
 **alt 1 Niepoprawne dane schematu:**  
 1. **System** wykrywa, że wprowadzone dane schematu są niepoprawne.
@@ -38,13 +38,13 @@ System umożliwia administratorowi tworzenie nowych schematów danych. Proces ob
 System umożliwia administratorowi aktualizację istniejących schematów danych. Proces obejmuje edycję szczegółów schematu, zapisanie zmian w systemie oraz synchronizację z platformą CKAN.  
 
 **kroki:**  
-3. **Administrator systemu** wybiera schemat danych do edycji.  
-4. **Administrator systemu** wprowadza zmiany w szczegółach schematu.
-5. **Administrator systemu** zatwierdza zmiany.  
-6. **System** weryfikuje poprawność wprowadzonych danych.  
-7. **System** zapisuje zmiany w bazie danych.  
-8. **System** synchronizuje zmiany z platformą CKAN.  
-9. **System** wyświetla komunikat o pomyślnej aktualizacji schematu danych.  
+1. **Administrator systemu** wybiera schemat danych do edycji.  
+2. **Administrator systemu** wprowadza zmiany w szczegółach schematu.
+3. **Administrator systemu** zatwierdza zmiany.  
+4. **System** weryfikuje poprawność wprowadzonych danych.  
+5. **System** zapisuje zmiany w bazie danych. 
+6. **System** synchronizuje zmiany z platformą CKAN.  
+7. **System** wyświetla komunikat o pomyślnej aktualizacji schematu danych.  
 
 **alt 1 Niepoprawne dane schematu:**  
 1. **System** wykrywa, że wprowadzone dane schematu są niepoprawne.  
@@ -63,9 +63,9 @@ System umożliwia administratorowi aktualizację istniejących schematów danych
 System umożliwia administratorowi przeglądanie listy dostępnych schematów danych. Lista zawiera szczegóły schematów, takie jak nazwa, opis i data ostatniej modyfikacji.  
 
 **kroki:**  
-2. **Administrator systemu** przechodzi do sekcji zarządzania schematami danych.  
-3. **System** pobiera z bazy danych listę schematów danych.  
-4. **System** wyświetla listę schematów danych administratorowi.  
+1. **Administrator systemu** przechodzi do sekcji zarządzania schematami danych.  
+2. **System** pobiera z bazy danych listę schematów danych.  
+3. **System** wyświetla listę schematów danych administratorowi.  
 
 **alt 1 Brak schematów danych:**  
 1. **System** wykrywa, że w bazie danych nie ma dostępnych schematów.  
@@ -80,12 +80,12 @@ System umożliwia administratorowi przeglądanie listy dostępnych schematów da
 System umożliwia administratorowi usunięcie istniejących schematów danych. Proces obejmuje wybór schematu do usunięcia, usunięcie go z systemu oraz synchronizację zmian z platformą CKAN.  
 
 **kroki:**
-3. **Administrator systemu** wybiera schemat danych do usunięcia.  
-4. **Administrator systemu** zatwierdza usunięcie schematu.  
-5. **System** weryfikuje poprawność operacji.  
-6. **System** usuwa schemat danych z bazy danych.  
-7. **System** synchronizuje usunięcie schematu z platformą CKAN.  
-8. **System** wyświetla komunikat o pomyślnym usunięciu schematu danych.  
+1. **Administrator systemu** wybiera schemat danych do usunięcia.  
+2. **Administrator systemu** zatwierdza usunięcie schematu.  
+3. **System** weryfikuje poprawność operacji.  
+4. **System** usuwa schemat danych z bazy danych.  
+5. **System** synchronizuje usunięcie schematu z platformą CKAN.  
+6. **System** wyświetla komunikat o pomyślnym usunięciu schematu danych.  
 
 **alt 1 Schemat danych jest używany:**  
 1. **System** wykrywa, że schemat danych jest powiązany z istniejącymi zbiorami danych.  

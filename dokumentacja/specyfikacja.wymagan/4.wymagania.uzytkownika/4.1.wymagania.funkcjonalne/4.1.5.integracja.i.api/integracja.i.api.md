@@ -67,12 +67,12 @@ System umożliwia zewnętrznym systemom usuwanie danych za pomocą API. Proces o
 System umożliwia integrację z platformą CKAN w celu synchronizacji danych. Proces obejmuje konfigurację integracji, przesyłanie danych do CKAN oraz odbieranie danych z CKAN.  
 
 **kroki:**
-2. **Administrator systemu** przechodzi do sekcji konfiguracji integracji z CKAN.  
-3. **Administrator systemu** wprowadza dane konfiguracyjne.
-4. **Administrator systemu** zatwierdza konfigurację.  
-5. **System** nawiązuje połączenie z platformą CKAN i weryfikuje poprawność konfiguracji.  
-6. **System** synchronizuje dane z platformą CKAN.
-7. **System** wyświetla komunikat o pomyślnym zakończeniu integracji.  
+1. **Administrator systemu** przechodzi do sekcji konfiguracji integracji z CKAN.  
+2. **Administrator systemu** wprowadza dane konfiguracyjne.
+3. **Administrator systemu** zatwierdza konfigurację.  
+4. **System** nawiązuje połączenie z platformą CKAN i weryfikuje poprawność konfiguracji.  
+5. **System** synchronizuje dane z platformą CKAN.
+6. **System** wyświetla komunikat o pomyślnym zakończeniu integracji.  
 
 **alt 1 Błąd konfiguracji:**  
 1. **System** wykrywa, że dane konfiguracyjne są niepoprawne.

@@ -37,9 +37,9 @@ System umożliwia użytkownikowi zalogowanie się do aplikacji za pomocą popraw
 System umożliwia użytkownikowi zmianę hasła na nowe. Proces obejmuje weryfikację starego hasła, wprowadzenie nowego hasła oraz jego zapisanie w systemie.  
 
 **kroki:**  
-2. **Użytkownik systemu** przechodzi do sekcji zmiany hasła.  
-3. **Użytkownik systemu** wprowadza aktualne hasło w odpowiednim polu.  
-4. **Użytkownik systemu** wprowadza nowe hasło.
+1. **Użytkownik systemu** przechodzi do sekcji zmiany hasła.  
+2. **Użytkownik systemu** wprowadza aktualne hasło w odpowiednim polu.  
+3. **Użytkownik systemu** wprowadza nowe hasło.
 4. **Użytkownik systemu** zatwierdza zmianę hasła.
 5. **System** weryfikuje poprawność aktualnego hasła.  
 6. **System** sprawdza zgodność nowego hasła z zasadami bezpieczeństwa.
@@ -62,13 +62,13 @@ System umożliwia użytkownikowi zmianę hasła na nowe. Proces obejmuje weryfik
 System umożliwia administratorowi dodanie nowego użytkownika do systemu. Proces obejmuje wprowadzenie danych użytkownika, przypisanie odpowiednich ról oraz zapisanie informacji w systemie.  
 
 **kroki:**
-3. **Administrator systemu** wybiera opcję dodania nowego użytkownika.  
-4. **Administrator systemu** wprowadza dane nowego użytkownika.  
-5. **Administrator systemu** przypisuje role i uprawnienia nowemu użytkownikowi.  
-5. **Administrator systemu** zatwierdza dodanie użytkownika.  
-6. **System** weryfikuje poprawność wprowadzonych danych.  
-7. **System** zapisuje dane nowego użytkownika w bazie danych.  
-8. **System** wyświetla komunikat o pomyślnym dodaniu użytkownika.  
+1. **Administrator systemu** wybiera opcję dodania nowego użytkownika.  
+2. **Administrator systemu** wprowadza dane nowego użytkownika.  
+3. **Administrator systemu** przypisuje role i uprawnienia nowemu użytkownikowi.  
+4. **Administrator systemu** zatwierdza dodanie użytkownika.  
+5. **System** weryfikuje poprawność wprowadzonych danych.  
+6. **System** zapisuje dane nowego użytkownika w bazie danych.  
+7. **System** wyświetla komunikat o pomyślnym dodaniu użytkownika.  
 
 **alt 1 Niepoprawne dane użytkownika:**
 1. **System** wykrywa, że wprowadzone dane użytkownika są niepoprawne.
@@ -87,13 +87,13 @@ System umożliwia administratorowi dodanie nowego użytkownika do systemu. Proce
 System umożliwia administratorowi przyznanie dostępu do systemu wybranemu użytkownikowi. Proces obejmuje wybór użytkownika, określenie poziomu dostępu oraz zapisanie zmian w systemie.  
 
 **kroki:**  
-2. **Administrator systemu** wybiera opcję przyznania dostępu użytkownikom.  
-3. **Administrator systemu** wybiera użytkownika, któremu chce przyznać dostęp.  
-4. **Administrator systemu** określa poziom dostępu.
-5. **Administrator systemu** zatwierdza zmiany.  
-6. **System** weryfikuje poprawność wprowadzonych danych.  
-7. **System** zapisuje zmiany w bazie danych.  
-8. **System** wyświetla komunikat o pomyślnym przyznaniu dostępu.  
+1. **Administrator systemu** wybiera opcję przyznania dostępu użytkownikom.  
+2. **Administrator systemu** wybiera użytkownika, któremu chce przyznać dostęp.  
+3. **Administrator systemu** określa poziom dostępu.
+4. **Administrator systemu** zatwierdza zmiany.  
+5. **System** weryfikuje poprawność wprowadzonych danych.  
+6. **System** zapisuje zmiany w bazie danych.  
+7. **System** wyświetla komunikat o pomyślnym przyznaniu dostępu.  
 
 **alt 1 Niepoprawne dane:**
 1. **System** wykrywa, że wprowadzone dane są niepoprawne.  
@@ -112,12 +112,12 @@ System umożliwia administratorowi przyznanie dostępu do systemu wybranemu uży
 System umożliwia administratorowi usunięcie użytkownika z systemu. Proces obejmuje wprowadzenie danych użytkownika i usunięcie go z systemu.  
 
 **kroki:**
-3. **Administrator systemu** wybiera opcję usunięcia użytkownika.  
-4. **Administrator systemu** wprowadza dane użytkownika.  
-5. **Administrator systemu** zatwierdza usunięcie użytkownika.  
-6. **System** weryfikuje poprawność wprowadzonych danych.  
-7. **System** zapisuje usuwa dane użytkownika z bazy danych.  
-8. **System** wyświetla komunikat o pomyślnym usnięciu użytkownika.  
+1. **Administrator systemu** wybiera opcję usunięcia użytkownika.  
+2. **Administrator systemu** wprowadza dane użytkownika.  
+3. **Administrator systemu** zatwierdza usunięcie użytkownika.  
+4. **System** weryfikuje poprawność wprowadzonych danych.  
+5. **System** zapisuje usuwa dane użytkownika z bazy danych.  
+6. **System** wyświetla komunikat o pomyślnym usnięciu użytkownika.  
 
 **alt 1 Niepoprawne dane użytkownika:**
 1. **System** wykrywa, że wprowadzone dane użytkownika są niepoprawne.
@@ -132,13 +132,13 @@ System umożliwia administratorowi usunięcie użytkownika z systemu. Proces obe
 System umożliwia administratorowi usunięcie dostępu do systemu wybranemu użytkownikowi. Proces obejmuje wybór użytkownika, określenie poziomu dostępu oraz zapisanie zmian w systemie.  
 
 **kroki:**  
-2. **Administrator systemu** wybiera opcję usunięcia dostępu użytkownikom.  
-3. **Administrator systemu** wybiera użytkownika, któremu chce usunąć dostęp.  
-4. **Administrator systemu** określa poziom dostępu.
-5. **Administrator systemu** zatwierdza zmiany.  
-6. **System** weryfikuje poprawność wprowadzonych danych.  
-7. **System** zapisuje zmiany w bazie danych.
-8. **System** wyświetla komunikat o pomyślnym przyznaniu dostępu.  
+1. **Administrator systemu** wybiera opcję usunięcia dostępu użytkownikom.  
+2. **Administrator systemu** wybiera użytkownika, któremu chce usunąć dostęp.  
+3. **Administrator systemu** określa poziom dostępu.
+4. **Administrator systemu** zatwierdza zmiany.  
+5. **System** weryfikuje poprawność wprowadzonych danych.  
+6. **System** zapisuje zmiany w bazie danych.
+7. **System** wyświetla komunikat o pomyślnym przyznaniu dostępu.  
 
 **alt 1 Niepoprawne dane:**
 1. **System** wykrywa, że wprowadzone dane są niepoprawne.  
@@ -157,11 +157,11 @@ System umożliwia administratorowi usunięcie dostępu do systemu wybranemu uży
 System umożliwia administratorowi przeprowadzenie audytu dostępu użytkowników do systemu. Proces obejmuje generowanie raportu zawierającego informacje o poziomach dostępu użytkowników oraz ich aktywności.  
 
 **kroki:**  
-2. **Administrator systemu** przechodzi do sekcji audytu dostępu.  
-3. **Administrator systemu** wybiera zakres danych do audytu.
-4. **Administrator systemu** zatwierdza żądanie wygenerowania raportu.  
-5. **System** przetwarza żądanie i generuje raport audytu dostępu.  
-6. **System** wyświetla raport audytu dostępu administratorowi.  
+1. **Administrator systemu** przechodzi do sekcji audytu dostępu.  
+2. **Administrator systemu** wybiera zakres danych do audytu.
+3. **Administrator systemu** zatwierdza żądanie wygenerowania raportu.  
+4. **System** przetwarza żądanie i generuje raport audytu dostępu.  
+5. **System** wyświetla raport audytu dostępu administratorowi.  
 
 **alt 1 Brak danych do audytu:**  
 1. **System** wykrywa brak danych spełniających kryteria audytu.  

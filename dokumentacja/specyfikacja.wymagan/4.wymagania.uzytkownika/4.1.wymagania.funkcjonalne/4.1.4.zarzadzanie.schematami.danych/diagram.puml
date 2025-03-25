@@ -1,8 +1,8 @@
-@startuml diagram
+@startuml
 left to right direction
 
 rectangle "Zarządzanie schematami danych" {
-  actor "Administrator systemu" as Administrator
+  actor Administrator
 
   usecase (Tworzenie schematów danych) as TworzenieSchematow
   usecase (Aktualizacja schematów danych) as AktualizacjaSchematow
